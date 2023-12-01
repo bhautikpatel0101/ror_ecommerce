@@ -1,0 +1,1116 @@
+repo_name: bhautikpatel0101/ror_ecommerce
+report_id: 7254d26002ce17171935f14cb2a94bf5
+repo_type: Public
+timestamp: '2023-12-01T14:54:24+00:00'
+requested_by: nick26
+provider: github
+branch: master
+detected_tools_count: 60
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  version: 2.4.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Repo Metadata
+  last_updated_by: David Henner
+  last_updated_on: 2013-01-23 09:25:20.000000000 Z
+- name: Rails
+  description: Web development that doesn't hurt
+  website_url: http://rubyonrails.org/
+  version: 5.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/990/x57_Lorv.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-09 05:50:51.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-09 05:50:51.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2010-10-17 04:06:06.000000000 Z
+- name: Capybara
+  description: Acceptance test framework for web applications
+  website_url: http://jnicklas.github.io/capybara/
+  version: 2.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2595/capybara.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2016-07-02 20:34:48.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: RSpec
+  description: Behaviour Driven Development for Ruby
+  website_url: https://rspec.info/
+  version: 3.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2539/logo.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2010-10-17 04:06:06.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2010-10-17 04:06:06.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Dean Perry
+  last_updated_on: 2012-09-08 16:23:36.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2010-10-17 04:06:06.000000000 Z
+- name: Paperclip
+  description: 'A file attachment management for ActiveRecord '
+  website_url: https://github.com/thoughtbot/paperclip
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Uploads
+  image_url: https://img.stackshare.io/service/2542/AqsQWFu-_400x400.jpg
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2016-07-11 00:49:10.000000000 Z
+- name: Twilio SendGrid
+  description: Email Delivery. Simplified.
+  website_url: http://sendgrid.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source: config/environments/production.rb
+  last_updated_by: David Henner
+  last_updated_on: 2010-10-17 04:06:06.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: app/assets/javascripts/markitup/templates/preview.html
+  last_updated_by: Dean Perry
+  last_updated_on: 2012-08-21 20:33:54.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source: Repo Metadata
+- name: UglifyJS
+  description: A JavaScript parser, minifier, compressor and beautifier toolkit.
+  website_url: http://lisperator.net/uglifyjs/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2013-09-14 23:27:37.000000000 Z
+- name: RedCloth
+  description: Textile parser for Ruby
+  package_url: https://rubygems.org/RedCloth
+  version: 4.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18977/default_bc359c39d5bb5b07850d1bca94ab8afbc55734a2.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: drhenner
+  last_updated_on: 2014-01-04 02:27:36.000000000 Z
+  vulnerabilities:
+  - name: RedCloth Regular Expression Denial of Service issue
+    cve_id: CVE-2023-31606
+    cve_url: https://github.com/advisories/GHSA-qcm3-vfq5-wfr2
+    detected_date: Jun 7
+    severity: high
+    first_patched: 
+- name: aasm
+  description: AASM is a continuation of the acts-as-state-machine rails plugin
+  package_url: https://rubygems.org/aasm
+  version: 4.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19294/default_884a22e9df9e57283c5b613256b2fd8913e1117c.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-20 09:10:42.000000000 Z
+- name: activemerchant
+  description: Active Merchant is a simple payment abstraction library used in and
+    sponsored by Shopify
+  package_url: https://rubygems.org/activemerchant
+  version: 1.70.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19206/default_33c8326f97a56642e8765668fc1ba3bfeb911247.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2016-07-11 00:49:10.000000000 Z
+- name: american_date
+  description: American style month/day/year date parsing for ruby 1.9
+  package_url: https://rubygems.org/american_date
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2016-07-02 20:34:48.000000000 Z
+- name: authlogic
+  description: An unobtrusive ruby authentication library based on ActiveRecord
+  package_url: https://rubygems.org/authlogic
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19377/default_63483bd20cbd1c069543c0b924fcbd88fd2c7de1.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-07-29 04:42:17.000000000 Z
+- name: autotest-rails-pure
+  description: Autotest for Test::Unit on Rails
+  package_url: https://rubygems.org/autotest-rails-pure
+  version: 4.1.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19251/default_98f442e49a9cf6ba040115f23dce11c5a9c322be.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-09 05:50:51.000000000 Z
+- name: awesome_nested_set
+  description: An awesome nested set implementation for Active Record
+  package_url: https://rubygems.org/awesome_nested_set
+  version: 3.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19299/default_85ad5a81d9f6bf567a15cbb73534a6e4443271eb.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-20 09:10:42.000000000 Z
+- name: aws-sdk
+  description: The official AWS SDK for Ruby
+  package_url: https://rubygems.org/aws-sdk
+  version: 2.3.22
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18869/default_63d360ffaa27bed91e2b067fb467407b5c9da0ed.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2016-07-11 00:49:10.000000000 Z
+- name: better_errors
+  description: Provides a better error page for Rails and other Rack apps
+  package_url: https://rubygems.org/better_errors
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19224/default_90da4313847baa579409c050c1ebb8de5a6e0fbc.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-15 03:42:00.000000000 Z
+  vulnerabilities:
+  - name: Older releases of better_errors open to Cross-Site Request Forgery attack
+    cve_id: CVE-2021-39197
+    cve_url: https://github.com/advisories/GHSA-w3j4-76qw-wwjm
+    detected_date: Sep 8
+    severity: moderate
+    first_patched: 2.8.0
+- name: binding_of_caller
+  description: Retrieve the binding of a method's caller
+  package_url: https://rubygems.org/binding_of_caller
+  version: 0.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19104/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2016-07-02 20:34:48.000000000 Z
+- name: bluecloth
+  description: BlueCloth is a Ruby implementation of John Gruber's Markdown[http://daringfireball.net/projects/markdown/],
+    a text-to-HTML conversion tool for web writers
+  package_url: https://rubygems.org/bluecloth
+  version: 2.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19065/default_0de2dc998e38d7217cd579e9d3b17d38e75b679e.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: drhenner
+  last_updated_on: 2014-01-04 02:27:36.000000000 Z
+- name: byebug
+  description: Byebug is a Ruby debugger
+  package_url: https://rubygems.org/byebug
+  version: 9.0.6
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18849/default_887cb273c504fac90d07fc552b7b223fbb32ca39.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2015-06-17 05:01:41.000000000 Z
+- name: cancancan
+  description: Simple authorization solution for Rails
+  package_url: https://rubygems.org/cancancan
+  version: 1.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19191/default_2266a6c0e2693d55b1999a7c5db4be13e5720232.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2016-07-03 06:06:15.000000000 Z
+- name: chronic
+  description: Chronic is a natural language date/time parser written in pure Ruby
+  package_url: https://rubygems.org/chronic
+  version: 0.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18990/default_c2edad6777219a9d77730c33c0ffc3c4598d107f.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2013-03-06 21:45:53.000000000 Z
+- name: compass-rails
+  description: Integrate Compass into Rails 3.0 and up
+  package_url: https://rubygems.org/compass-rails
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19229/default_df0c87c1d1c9c662c2ad960d8e93130abb553ed2.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-09 05:50:51.000000000 Z
+- name: config
+  description: 'Easiest way to manage multi-environment settings in any ruby project
+    or framework: Rails'
+  package_url: https://rubygems.org/config
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2016-06-12 23:28:08.000000000 Z
+- name: database_cleaner
+  description: Strategies for cleaning databases
+  package_url: https://rubygems.org/database_cleaner
+  version: 1.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18854/default_09811c2c16af4754129f39ba1dab0d23ca3d2476.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-15 03:42:00.000000000 Z
+- name: dynamic_form
+  description: DynamicForm holds a few helper methods to help you deal with your Rails3
+    models
+  package_url: https://rubygems.org/dynamic_form
+  version: 1.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19459/default_de854f0c757466f4cce7c01e288f5f01a5e38432.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2012-12-31 19:32:09.000000000 Z
+- name: email_spec
+  description: Easily test email in RSpec, Cucumber, and MiniTest
+  package_url: https://rubygems.org/email_spec
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19654/default_031d700d5f589b872d1d7b6f6ef54682aec7dc44.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2016-07-03 01:28:26.000000000 Z
+- name: factory_girl
+  description: Factory_girl provides a framework and DSL for defining and using factories
+    - less error-prone
+  package_url: https://rubygems.org/factory_girl
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18878/default_0cd89f02ed75d3a8429cd566a89b1a4a36ad114f.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2016-11-09 19:51:10.000000000 Z
+- name: factory_girl_rails
+  description: Factory_girl_rails provides integration between factory_girl and rails
+    3 or newer
+  package_url: https://rubygems.org/factory_girl_rails
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18885/default_2ee21c0657d6b4f7c9a25f371c4eb30f678e82bb.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-09 05:50:51.000000000 Z
+- name: faker
+  description: Faker
+  package_url: https://rubygems.org/faker
+  version: 1.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18897/default_31c6044490fb5c1bec1388b8ceb466b6ac78ae92.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2010-10-17 04:06:06.000000000 Z
+- name: foundation-rails
+  description: Foundation on Sass/Compass
+  package_url: https://rubygems.org/foundation-rails
+  version: 6.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-09 05:50:51.000000000 Z
+- name: friendly_id
+  description: FriendlyId is the "Swiss Army bulldozer" of slugging and permalink
+    plugins for Active Record
+  package_url: https://rubygems.org/friendly_id
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19084/default_54dcdbda5f19ac7cce7dfde7a31f57a35d2cdc2f.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: romiras
+  last_updated_on: 2015-06-16 14:48:17.000000000 Z
+- name: jbuilder
+  description: Create JSON structures via a Builder-style DSL
+  package_url: https://rubygems.org/jbuilder
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19105/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2013-07-14 10:41:58.000000000 Z
+- name: jquery-rails
+  description: This gem provides jQuery and the jQuery-ujs driver for your Rails 4+
+    application
+  package_url: https://rubygems.org/jquery-rails
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18864/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-09 05:50:51.000000000 Z
+  vulnerabilities:
+  - name: jQuery Cross Site Scripting vulnerability
+    cve_id: CVE-2020-23064
+    cve_url: https://github.com/advisories/GHSA-257q-pv89-v3xv
+    detected_date: Jul 8
+    severity: moderate
+    first_patched: 4.4.0
+  - name: XSS in jQuery as used in Drupal, Backdrop CMS, and other products
+    cve_id: CVE-2019-11358
+    cve_url: https://github.com/advisories/GHSA-6c3j-c64m-qhgq
+    detected_date: May 31
+    severity: moderate
+    first_patched: 4.3.4
+  - name: Potential XSS vulnerability in jQuery
+    cve_id: CVE-2020-11022
+    cve_url: https://github.com/advisories/GHSA-gxr4-xjj5-5px2
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 4.4.0
+  - name: Potential XSS vulnerability in jQuery
+    cve_id: CVE-2020-11023
+    cve_url: https://github.com/advisories/GHSA-jpcq-cgw6-v4j6
+    detected_date: May 5
+    severity: moderate
+    first_patched: 4.4.0
+- name: jquery-ui-rails
+  description: JQuery UI's JavaScript
+  package_url: https://rubygems.org/jquery-ui-rails
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19034/default_3b4cf18706356e37d5fd855ffc4bc322798b3fd9.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-09 05:50:51.000000000 Z
+  vulnerabilities:
+  - name: jQuery UI vulnerable to XSS when refreshing a checkboxradio with an HTML-like
+      initial text label
+    cve_id: CVE-2022-31160
+    cve_url: https://github.com/advisories/GHSA-h6gj-6jjq-h8g9
+    detected_date: Sep 27
+    severity: moderate
+    first_patched: 7.0.0
+  - name: XSS in `*Text` options of the Datepicker widget in jquery-ui
+    cve_id: CVE-2021-41183
+    cve_url: https://github.com/advisories/GHSA-j7qv-pgf6-hvh4
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 7.0.0
+  - name: XSS in the `altField` option of the Datepicker widget in jquery-ui
+    cve_id: CVE-2021-41182
+    cve_url: https://github.com/advisories/GHSA-9gj3-hwp5-pmwc
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 7.0.0
+  - name: XSS in the `of` option of the `.position()` util in jquery-ui
+    cve_id: CVE-2021-41184
+    cve_url: https://github.com/advisories/GHSA-gpqq-952q-5327
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 7.0.0
+- name: json
+  description: This is a JSON implementation as a Ruby extension in C
+  package_url: https://rubygems.org/json
+  version: 2.1.0
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-09 05:50:51.000000000 Z
+  vulnerabilities:
+  - name: Unsafe object creation in json RubyGem
+    cve_id: CVE-2020-10663
+    cve_url: https://github.com/advisories/GHSA-jphg-qwrw-7w9g
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.3.0
+- name: launchy
+  description: Launchy is helper class for launching cross-platform applications in
+    a fire and forget manner
+  package_url: https://rubygems.org/launchy
+  version: 2.4.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18893/default_421783d7f975d1b076f260bea1d42f0b2621ca39.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2011-11-14 00:21:06.000000000 Z
+- name: mocha
+  description: Mocking and stubbing library with JMock/SchMock syntax
+  package_url: https://rubygems.org/mocha
+  version: 0.13.3
+  license: MIT,BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18834/default_0e382579c2f0564abd86ba662410379f1d623a9c.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2016-07-02 20:34:48.000000000 Z
+- name: mysql2
+  description: A simple, fast Mysql library for Ruby, binding to libmysql
+  package_url: https://rubygems.org/mysql2
+  version: 0.4.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18883/default_947bd37125b8812cb816bc3cf571b13df90a4fe0.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-07-29 04:42:17.000000000 Z
+- name: nokogiri
+  description: Nokogiri
+  package_url: https://rubygems.org/nokogiri
+  version: 1.6.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2014-11-30 22:00:19.000000000 Z
+  vulnerabilities:
+  - name: Nokogiri does not forbid namespace nodes in XPointer ranges
+    cve_id: CVE-2016-4658
+    cve_url: https://github.com/advisories/GHSA-fr52-4hqw-p27f
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.7.1
+  - name: Nokogiri Command Injection Vulnerability
+    cve_id: CVE-2019-5477
+    cve_url: https://github.com/advisories/GHSA-cr5j-953j-xw5p
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.10.4
+  - name: Nokogiri vulnerable to libxslt protection mechanism bypass
+    cve_id: CVE-2019-11068
+    cve_url: https://github.com/advisories/GHSA-qxcg-xjjg-66mj
+    detected_date: Mar 9
+    severity: critical
+    first_patched: 1.10.3
+  - name: libxml as used in Nokogiri has an infinite loop in a certain end-of-file
+      situation
+    cve_id: CVE-2020-7595
+    cve_url: https://github.com/advisories/GHSA-7553-jr98-vx47
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.10.8
+  - name: Nokogiri Implements libxml2 version vulnerable to use-after-free
+    cve_id: CVE-2021-3518
+    cve_url: https://github.com/advisories/GHSA-v4f8-2847-rwm7
+    detected_date: Jul 6
+    severity: high
+    first_patched: 1.11.4
+  - name: Nokogiri affected by zlib's Out-of-bounds Write vulnerability
+    cve_id: CVE-2018-25032
+    cve_url: https://github.com/advisories/GHSA-jc36-42cf-vqwj
+    detected_date: Jun 28
+    severity: high
+    first_patched: 1.13.4
+  - name: Nokogiri implementation of libxslt lacks integer overflow checks
+    cve_id: CVE-2017-5029
+    cve_url: https://github.com/advisories/GHSA-pf6m-fxpq-fg8v
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.7.2
+  - name: Improper Restriction of XML External Entity Reference (XXE) in Nokogiri
+      on JRuby
+    cve_id: CVE-2021-41098
+    cve_url: https://github.com/advisories/GHSA-2rr5-8q37-2w7h
+    detected_date: Sep 28
+    severity: high
+    first_patched: 1.12.5
+  - name: Nokogiri NULL Pointer Dereference
+    cve_id: CVE-2018-14404
+    cve_url: https://github.com/advisories/GHSA-6qvp-r6r3-9p7h
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.8.5
+  - name: Out-of-bounds read in nokogiri
+    cve_id: CVE-2017-9050
+    cve_url: https://github.com/advisories/GHSA-8c56-cpmw-89x7
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.8.1
+  - name: Nokogiri Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-24836
+    cve_url: https://github.com/advisories/GHSA-crjr-9rc5-ghw8
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: Nokogiri Improperly Handles Unexpected Data Type
+    cve_id: CVE-2022-29181
+    cve_url: https://github.com/advisories/GHSA-xh29-r2w5-wx8m
+    detected_date: May 24
+    severity: high
+    first_patched: 1.13.6
+  - name: Nokogiri gem, via libxml, is affected by DoS vulnerabilities
+    cve_id: CVE-2017-15412
+    cve_url: https://github.com/advisories/GHSA-r58r-74gx-6wx3
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.8.2
+  - name: Nokogiri contains libxml Out-of-bounds Write vulnerability
+    cve_id: CVE-2021-3517
+    cve_url: https://github.com/advisories/GHSA-jw9f-hh49-cvp9
+    detected_date: Mar 9
+    severity: high
+    first_patched: 1.11.4
+  - name: Nokogiri implementation of libxslt vulnerable to heap corruption
+    cve_id: CVE-2019-5815
+    cve_url: https://github.com/advisories/GHSA-vmfx-gcfq-wvm2
+    detected_date: Jul 8
+    severity: high
+    first_patched: 1.10.5
+  - name: Nokogiri affected by libxslt Use of Uninitialized Resource/Use After Free
+      vulnerability
+    cve_id: CVE-2019-18197
+    cve_url: https://github.com/advisories/GHSA-242x-7cm6-4w8j
+    detected_date: Jul 8
+    severity: high
+    first_patched: 1.10.5
+  - name: Nokogiri gem, via libxml, is affected by DoS vulnerabilities
+    cve_id: CVE-2017-16932
+    cve_url: https://github.com/advisories/GHSA-x2fm-93ww-ggvx
+    detected_date: Jun 10
+    severity: high
+    first_patched: 1.8.1
+  - name: Uninitialized read in Nokogiri gem
+    cve_id: CVE-2019-13117
+    cve_url: https://github.com/advisories/GHSA-4hm9-844j-jmxp
+    detected_date: Jun 10
+    severity: high
+    first_patched: 1.10.5
+  - name: Nokogiri has vulnerable dependencies on libxml2 and libxslt
+    cve_id: CVE-2021-30560
+    cve_url: https://github.com/advisories/GHSA-59gp-qqm7-cw4j
+    detected_date: Jun 28
+    severity: high
+    first_patched: 1.13.2
+  - name: Integer Overflow or Wraparound in libxml2 affects Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-cgx6-hpwq-fhv5
+    detected_date: May 19
+    severity: high
+    first_patched: 1.13.5
+  - name: Vulnerable dependencies in Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-fq42-c5rg-92c2
+    detected_date: Feb 26
+    severity: high
+    first_patched: 1.13.2
+  - name: Denial of Service (DoS) in Nokogiri on JRuby
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-gx8x-g87m-h5q6
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: Out-of-bounds Write in zlib affects Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-v6gp-9mmm-c6p5
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: libxslt Type Confusion vulnerability that affects Nokogiri
+    cve_id: CVE-2019-13118
+    cve_url: https://github.com/advisories/GHSA-cf46-6xxh-pc75
+    detected_date: Mar 9
+    severity: high
+    first_patched: 1.10.5
+  - name: Cross-site Scripting in loofah
+    cve_id: CVE-2018-8048
+    cve_url: https://github.com/advisories/GHSA-x7rv-cr6v-4vm4
+    detected_date: Jun 10
+    severity: moderate
+    first_patched: 1.8.3
+  - name: Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability
+    cve_id: CVE-2020-26247
+    cve_url: https://github.com/advisories/GHSA-vr8q-g5c7-m54m
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.11.0
+  - name: Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-pxvg-2qj5-37jq
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: 1.14.3
+  - name: Nokogiri Implements libxml2 version vulnerable to null pointer dereferencing
+    cve_id: CVE-2021-3537
+    cve_url: https://github.com/advisories/GHSA-286v-pcf5-25rc
+    detected_date: Jul 6
+    severity: moderate
+    first_patched: 1.11.4
+  - name: Uncontrolled resource consumption in nokogiri
+    cve_id: CVE-2017-18258
+    cve_url: https://github.com/advisories/GHSA-882p-jqgm-f45g
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.8.2
+  - name: Update bundled libxml2 to v2.10.3 to resolve multiple CVEs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-2qc6-mcvw-92cw
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.13.9
+  - name: XML Injection in Xerces Java affects Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xxx9-3xcr-gjj3
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: 1.13.4
+  - name: Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-7rrm-v45f-jp64
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.11.4
+- name: prawn
+  description: Prawn is a fast, tiny, and nimble PDF generator for Ruby
+  package_url: https://rubygems.org/prawn
+  version: 2.2.2
+  license: GPL-2.0,GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19058/default_cafacebf9602efba5c9e675f02335a1684f56941.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2016-11-09 19:51:10.000000000 Z
+- name: rails-controller-testing
+  description: Extracting `assigns` and `assert_template` from ActionDispatch
+  package_url: https://rubygems.org/rails-controller-testing
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19298/default_665ed3fcb2a1ba0439337b543b18095155087d89.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-09 05:50:51.000000000 Z
+- name: rails3-generators
+  description: Rails 3 compatible generators for gems that don't have them yet
+  package_url: https://rubygems.org/rails3-generators
+  version: 1.0.0
+  license: MIT,Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-09 05:50:51.000000000 Z
+- name: rake
+  description: Rake is a Make-like program implemented in Ruby
+  package_url: https://rubygems.org/rake
+  version: 10.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Torsten Ruger
+  last_updated_on: 2013-12-02 20:33:49.000000000 Z
+  vulnerabilities:
+  - name: OS Command Injection in Rake
+    cve_id: CVE-2020-8130
+    cve_url: https://github.com/advisories/GHSA-jppv-gw3r-w3q8
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 12.3.3
+- name: rmagick
+  description: RMagick is an interface between Ruby and ImageMagick
+  package_url: https://rubygems.org/rmagick
+  version: 2.15.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18925/default_e338e2555176782d684cb0520d8c7d817f6bbe4f.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2016-11-09 19:51:10.000000000 Z
+  vulnerabilities:
+  - name: memory leak flaw was found in ruby-magick
+    cve_id: CVE-2023-5349
+    cve_url: https://github.com/advisories/GHSA-frgf-8jr5-j2jv
+    detected_date: Nov 1
+    severity: moderate
+    first_patched: 5.3.0
+- name: rspec-rails
+  description: Rspec-rails is a testing framework for Rails 3+
+  package_url: https://rubygems.org/rspec-rails
+  version: 3.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18830/default_ba8d7756589e5fc0164687950e3f091b32554546.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-09 05:50:51.000000000 Z
+- name: sass-rails
+  description: Sass adapter for the Rails asset pipeline
+  package_url: https://rubygems.org/sass-rails
+  version: 5.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18876/default_d416e715a80ce80ae31b87cff032f5873c8a9d2a.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-09 05:50:51.000000000 Z
+- name: sprockets
+  description: Sprockets is a Rack-based asset packaging system that concatenates
+    and serves JavaScript
+  package_url: https://rubygems.org/sprockets
+  version: 3.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18932/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2016-11-09 19:51:10.000000000 Z
+  vulnerabilities:
+  - name: Sprockets path traversal leads to information leak
+    cve_id: CVE-2018-3760
+    cve_url: https://github.com/advisories/GHSA-pr3h-jjhj-573x
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.7.2
+- name: uglifier
+  description: Uglifier minifies JavaScript files by wrapping UglifyJS to be accessible
+    in Ruby
+  package_url: https://rubygems.org/uglifier
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2013-09-14 23:27:37.000000000 Z
+- name: will_paginate
+  description: Will_paginate provides a simple API for performing paginated queries
+    with Active Record
+  package_url: https://rubygems.org/will_paginate
+  version: 3.1.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18959/default_d56e7cc665032604d9f725997e6ccc641992a4f2.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-15 03:42:00.000000000 Z
+- name: yard
+  description: YARD is a documentation generation tool for the Ruby programming language
+  package_url: https://rubygems.org/yard
+  version: 0.9.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: github.com/bhautikpatel0101/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Dean Perry
+  last_updated_on: 2012-08-13 21:35:11.000000000 Z
+  vulnerabilities:
+  - name: Arbitrary file read vulnerability in yard server
+    cve_id: CVE-2017-17042
+    cve_url: https://github.com/advisories/GHSA-gj4p-3wh3-2rmf
+    detected_date: Aug 22
+    severity: high
+    first_patched: 0.9.11
+  - name: Path Traversal vulnerability that affects yard
+    cve_id: CVE-2019-1020001
+    cve_url: https://github.com/advisories/GHSA-xfhh-rx56-rxcr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 0.9.20
